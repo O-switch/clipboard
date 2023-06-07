@@ -1,0 +1,271 @@
+ @import url('https://fonts.googleapis.com/css2?family=Montaga&display=swap');
+
+ * {
+     margin: 0;
+     padding: 0;
+     box-sizing: border-box;
+ }
+
+ body {
+     margin: auto;
+     padding: auto;
+     width: 100%;
+     height: 100vh;
+     font-size: 18px;
+     font-family: sans-serif;
+     text-align: center;
+ }
+
+ h1 {
+     font-size: 40px;
+ }
+
+ h2,
+ h3 {
+     font-weight: 600;
+ }
+
+ p {
+     color: hsl(201, 11%, 66%);
+     font-weight: 400;
+     padding: 20px 0;
+     margin: auto;
+     width: 50%;
+ }
+
+ .section-p {
+     padding: 20px 0;
+ }
+ .section-m{
+    margin: 40px 0;
+ }
+
+ header {
+     width: auto;
+     background-image: url('images/bg-header-desktop.png');
+     background-position: center;
+     background-size: cover;
+     text-align: center;
+     padding: 10px 0;
+ }
+
+ header img {
+     width: 80px;
+     margin-top: 60px;
+ }
+
+
+ .head {
+     text-align: center;
+ }
+
+ button {
+     padding: 10px 20px;
+     border-radius: 20px;
+     outline: none;
+     border: none;
+     font-size: 18px;
+     color: #fff;
+     margin: 40px 5px;
+     cursor: pointer;
+ }
+
+ .blue {
+     background: hsl(233, 100%, 69%);
+     box-shadow: 0px 15px 30px #6173ff38
+ }
+
+ .green {
+     background: #26baa4;
+     box-shadow: 0px 15px 30px #26baa438
+ }
+
+ #snipp {
+     margin: 100px;
+     margin-top: 7%;
+     position: relative;
+     padding: 0;
+ }
+
+ #snipp .container {
+     width: 90%;
+     margin-top: 2%;
+
+ }
+
+ #snipp .snipp-img {
+     float: left;
+     margin-left: -20%;
+     padding-right: 65px;
+
+ }
+
+ #snipp .list {
+     padding: 7% 0;
+     text-align: left;
+ }
+
+
+ #snipp .detail {
+     margin: 50px 0;
+ }
+ #snipp .detail p{
+    width: 100%;
+ }
+
+ .box {
+     display: flex;
+     margin: 20px;
+ }
+
+ .box h3 {
+     padding: 20px;
+ }
+
+
+ .box img {
+     margin-top: 3%;
+ }
+
+ .box .box-list {
+     margin: 5px;
+ }
+
+ .box .box-list p {
+     width: 70%;
+ }
+
+ #company-logo {
+     margin: 5% 0;
+ }
+
+ #company-logo img {
+     margin: 40px;
+ }
+
+ footer {
+     padding: 10px 100px;
+     display: flex;
+     justify-content: space-between;
+     background: #f5f6f8;
+     flex-wrap: wrap;
+     margin-top: 7%;
+ }
+
+
+ footer img {
+     width: 50px;
+     height: 50px;
+ }
+
+ .terms {
+     width: 50%;
+     text-align: left;
+ }
+
+ a {
+     text-decoration: none;
+     color: black;
+     margin: 50px;
+     line-height: 2;
+ }
+
+ .social-icon {
+     margin: 10px;
+ }
+
+ a:hover,
+ .social-icon:hover {
+     color: #26baa4;
+     cursor: pointer;
+ }
+
+ footer .attribution {
+     width: 100%;
+     text-align: center;
+     padding: 0;
+     font-size: 13px;
+ }
+
+ footer .attribution a {
+     margin: 0;
+ }
+
+ /* media query */
+ @media (max-width: 375px) {
+     header {
+         height: 30vh;
+         background-image: url('images/bg-header-mobile.png');
+     }
+
+     h1,
+     h2 {
+         font-size: 30px;
+     }
+
+     p {
+         width: 90%;
+         line-height: 1.5;
+     }
+
+     #snipp {
+         width: 100%;
+         padding: 10px;
+         margin: 7% 0;
+         text-align: center;
+     }
+
+     #snipp .container {
+         width: 100%;
+     }
+
+     #snipp .snipp-img {
+         float: none;
+         margin: 0;
+         padding: 0;
+     }
+
+     #snipp .list {
+
+         text-align: center;
+     }
+
+     button {
+         margin: 15px;
+         width: 70%;
+     }
+
+     img {
+         width: 80%;
+     }
+
+     .box {
+         display: block;
+     }
+
+     .box img {
+         width: 50px;
+     }
+
+     #company-logo img {
+         display: inline-block;
+         width: 50%;
+     }
+
+     footer {
+         display: block;
+         padding: 10px
+     }
+
+     .terms {
+         width: 100%;
+     }
+
+     .terms a {
+         padding: 10px;
+         margin: 0;
+         display: inline-block;
+         text-align: center;
+         width: 100%;
+     }
+ }
